@@ -7,7 +7,7 @@ const CANDIDATE_META: Record<string, { name: string; party: string; color: strin
   "william-ruto":     { name: "William Ruto",    party: "UDA",   color: "bg-yellow-400" },
   "fred-matiangi":     { name: 'Fred Matiangi', party: 'JUBILEE', color: "bg-orange-500" },
   "kalonzo-musyoka":  { name: "Kalonzo Musyoka", party: "Wiper", color: "bg-blue-500" },
-  "george-wajackoyah":{ name: 'Rigathi Gachagua', party: 'DCP', color: "bg-green-500" },
+  "rigathi-gachagua":{ name: 'Rigathi Gachagua', party: 'DCP', color: "bg-green-500" },
 };
 
 type ResultItem = {
@@ -121,7 +121,7 @@ export default function LiveResultsGraph() {
         })}
       </div>
 
-      {/* 🏷️ LABELS */}
+      {/* LABELS */}
       <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
         {data.map((candidate) => (
           <div key={candidate.id} className="text-center p-3 rounded-lg bg-slate-50 border border-slate-100">
