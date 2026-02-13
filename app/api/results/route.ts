@@ -32,11 +32,12 @@ export async function GET(request: Request) {
       return NextResponse.json({ votes: {}, total: 0 }, { status: 200 });
     }
 
-    // 3. Format: { "william-ruto": 150, "raila-odinga": 120 }
+    
     const formattedResults: Record<string, number> = {};
     
     if (results) {
-      results.forEach((r) => {
+     
+      results.forEach((r: { candidateId: string | null; _count: { candidateId: number } }) => {
         if (r.candidateId) { // Safety check
           formattedResults[r.candidateId] = r._count.candidateId;
         }

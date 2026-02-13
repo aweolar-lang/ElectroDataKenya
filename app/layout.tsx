@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Civic Observer 2027 - Kenya",
     description: "Real-time, neutral civic data collection for the 2027 season.",
-    url: "https://your-domain.com", // Replace with your actual domain
+    url: "https://studylite.online",
     siteName: "Civic Observer 2027",
     locale: "en_KE",
     type: "website",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Civic Observer 2027",
     description: "Real-time civic data collection for Kenya.",
-    creator: "@Ethandewatcher", // From your footer info
+    creator: "@Ethandewatcher",
   },
 
   // 4. INDEXING CONTROL
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#000000", // Matches your black header
+  themeColor: "#000000",
 };
 
 export default function RootLayout({
