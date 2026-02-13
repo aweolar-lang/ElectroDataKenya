@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 
 // 1. IMPROVED METADATA FOR SEO
 export const metadata: Metadata = {
+  metadataBase: new URL("https://studylite.online"),
   title: {
     template: "%s | Civic Observer 2027",
     default: "Civic Observer 2027 - Real-Time Kenyan Election Data",
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Civic Observer 2027 - Kenya",
     description: "Real-time, neutral civic data collection for the 2027 season.",
-    url: "https://studylite.online",
+    url: "/",
     siteName: "Civic Observer 2027",
     locale: "en_KE",
     type: "website",
