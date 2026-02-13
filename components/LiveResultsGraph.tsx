@@ -3,13 +3,11 @@
 import { useEffect, useState } from "react";
 
 // 1. LOOKUP TABLE: Maps your Database IDs to Display Names & Colors
-// (Since your API only returns IDs like 'william-ruto', we need this to show the real names)
 const CANDIDATE_META: Record<string, { name: string; party: string; color: string }> = {
   "william-ruto":     { name: "William Ruto",    party: "UDA",   color: "bg-yellow-400" },
-  "raila-odinga":     { name: "Raila Odinga",    party: "ODM",   color: "bg-orange-500" },
+  "fred-matiangi":     { name: 'Fred Matiangi', party: 'JUBILEE', color: "bg-orange-500" },
   "kalonzo-musyoka":  { name: "Kalonzo Musyoka", party: "Wiper", color: "bg-blue-500" },
-  "george-wajackoyah":{ name: "G. Wajackoyah",   party: "Roots", color: "bg-green-500" },
-  // Add others if needed
+  "george-wajackoyah":{ name: 'Rigathi Gachagua', party: 'DCP', color: "bg-green-500" },
 };
 
 type ResultItem = {
@@ -28,13 +26,10 @@ export default function LiveResultsGraph() {
   useEffect(() => {
     async function fetchNationalResults() {
       try {
-        // Fetch from your API (No countyId = National Results)
         const res = await fetch('/api/results'); 
         if (!res.ok) throw new Error("Failed");
         
         const json = await res.json(); 
-        // Expected JSON: { votes: { "william-ruto": 10 }, total: 10 }
-
         const apiVotes = json.votes || {};
         
         // Convert the API Object into an Array for the Graph
@@ -45,15 +40,19 @@ export default function LiveResultsGraph() {
             name: meta.name,
             party: meta.party,
             color: meta.color,
-            votes: apiVotes[id] || 0 // Use API count or 0 if no votes yet
+            votes: apiVotes[id] || 0 
           };
         });
 
         // Sort by votes (Highest first)
         processedData.sort((a, b) => b.votes - a.votes);
 
+        // ✅ FIX: Calculate total based ONLY on the candidates in this graph (Presidential)
+        // This ignores Governor/MP votes that might be in the API total
+        const presidentialTotal = processedData.reduce((sum, item) => sum + item.votes, 0);
+
         setData(processedData);
-        setTotalVotes(json.total || 0);
+        setTotalVotes(presidentialTotal); // Updated to use local sum
       } catch (error) {
         console.error("Error fetching graph data:", error);
       } finally {
@@ -63,7 +62,7 @@ export default function LiveResultsGraph() {
 
     fetchNationalResults();
     
-    // Auto-refresh every 5 seconds for "Live" feel
+    // Auto-refresh every 5 seconds
     const interval = setInterval(fetchNationalResults, 5000);
     return () => clearInterval(interval);
   }, []);
@@ -110,7 +109,7 @@ export default function LiveResultsGraph() {
 
               {/* The Bar */}
               <div 
-                className={`w-full max-w-[60px] md:max-w-[80px] rounded-t-lg transition-all duration-1000 ease-out relative ${candidate.color} hover:brightness-110 shadow-lg cursor-pointer`}
+                className={`w-full max-w-15 md:max-w-20 rounded-t-lg transition-all duration-1000 ease-out relative ${candidate.color} hover:brightness-110 shadow-lg cursor-pointer`}
                 style={{ height: `${heightPercent}%`, minHeight: '10px' }}
               >
                 <div className="absolute -top-8 w-full text-center font-bold text-slate-700 text-sm">

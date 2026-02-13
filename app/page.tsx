@@ -51,7 +51,7 @@ export default function HomePage() {
 
       {/* 🇰🇪 TOP HERO SECTION */}
       <header className="relative bg-black text-white overflow-hidden shrink-0">
-        <div className="absolute top-0 w-full h-1 bg-gradient-to-r from-black via-red-600 to-green-600 z-20"></div>
+        <div className="absolute top-0 w-full h-1 bg-linear-to-r from-black via-red-600 to-green-600 z-20"></div>
         
         <div className="max-w-7xl mx-auto px-6 py-16 relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
@@ -62,7 +62,7 @@ export default function HomePage() {
               </div>
               <h1 className="text-5xl md:text-7xl font-black tracking-tight mb-6 leading-none">
                 DECIDE <br/>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-700">KENYA&apos;S FUTURE</span>
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-green-500 to-green-700">KENYA&apos;S FUTURE</span>
               </h1>
               <p className="text-lg text-gray-400 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed">
                 The most advanced civic engagement platform. View real-time aggregated public sentiment, analyze party strength, and record your preference securely.
@@ -73,7 +73,7 @@ export default function HomePage() {
                   onClick={handleParticipateClick}
                   className="px-8 py-4 bg-[#BB0000] hover:bg-[#990000] text-white font-bold rounded-lg transition-all shadow-lg shadow-red-900/20 flex items-center justify-center gap-2"
                 >
-                  Participate Now 🗳️
+                  Vote Now 🗳️
                 </button>
                 <a 
                   href="#results"
@@ -86,7 +86,7 @@ export default function HomePage() {
 
             {/* Hero Graphic */}
             <div className="md:w-1/2 flex justify-center">
-              <div className="relative w-80 h-80 rounded-full bg-gradient-to-tr from-green-900/20 to-red-900/20 blur-3xl animate-pulse absolute"></div>
+              <div className="relative w-80 h-80 rounded-full bg-linear-to-tr from-green-900/20 to-red-900/20 blur-3xl animate-pulse absolute"></div>
               <div className="relative z-10 bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-md max-w-sm">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="h-10 w-10 bg-green-600 rounded-full flex items-center justify-center text-xl">🛡️</div>
@@ -107,7 +107,7 @@ export default function HomePage() {
       </header>
 
       {/* 🟢 MAIN CONTENT AREA WITH SIDE ADS */}
-      <div className="flex flex-1 max-w-[1400px] mx-auto w-full">
+      <div className="flex flex-1 max-w-350 mx-auto w-full">
         
         {/* 📢 LEFT AD SIDEBAR (Desktop Only) */}
         <aside className="hidden lg:flex w-48 flex-col gap-4 py-8 sticky top-0 h-screen overflow-y-auto border-r border-gray-200 bg-white p-4">
@@ -116,7 +116,7 @@ export default function HomePage() {
              href="https://affiliate.iqoption.net/redir/?aff=756918&aff_model=revenue&afftrack="
              target="_blank"
              rel="noopener noreferrer"
-             className="flex-1 bg-gradient-to-b from-slate-900 to-slate-800 rounded-xl p-4 flex flex-col items-center text-center hover:opacity-95 transition-all group shadow-lg"
+             className="flex-1 bg-linear-to-b from-slate-900 to-slate-800 rounded-xl p-4 flex flex-col items-center text-center hover:opacity-95 transition-all group shadow-lg"
            >
               <div className="w-12 h-12 bg-[#ff7b00] rounded-lg mb-4 flex items-center justify-center font-black text-white italic text-xl group-hover:scale-110 transition-transform">IQ</div>
               
@@ -130,6 +130,12 @@ export default function HomePage() {
               <h3 className="text-[#00dd00] font-bold text-md leading-tight mb-2">Trade Crypto</h3>
               <p className="text-gray-400 text-xs mb-4">
                 Bitcoin, Ethereum & 50+ Assets.
+              </p>
+               <p className="text-gray-400 text-xs mb-4">
+                CDF
+              </p>
+               <p className="text-gray-400 text-xs mb-4">
+                Binary Options, Forex & More.
               </p>
 
               <button className="bg-[#00dd00] text-black font-bold py-2 px-4 rounded text-xs w-full uppercase mt-auto">Join Now</button>
@@ -201,6 +207,9 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-center gap-2 text-[10px] font-bold text-slate-700">
                   <span className="text-green-600">✓</span> Fast Withdrawals
+                </li>
+                <li className="flex items-center gap-2 text-[10px] font-bold text-slate-700">
+                  <span className="text-green-600">✓</span> Best UI for beginners
                 </li>
               </ul>
 

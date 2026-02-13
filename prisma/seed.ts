@@ -16,9 +16,9 @@ const prisma = new PrismaClient({ adapter });
 // --- DATA: Hardcoded Presidents ---
 const presidents = [
   { name: 'William Ruto', party: 'UDA' },
-  { name: 'Raila Odinga', party: 'ODM' },
+  { name: 'Fred Matiangi', party: 'JUBILEE' },
   { name: 'Kalonzo Musyoka', party: 'Wiper' },
-  { name: 'George Wajackoyah', party: 'Roots' },
+  { name: 'Rigathi Gachagua', party: 'DCP' },
 ];
 
 // --- DATA: Full 47 Counties (Reference for Code/Name) ---
