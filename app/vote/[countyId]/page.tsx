@@ -2,7 +2,7 @@ import { prisma } from "@/lib/prisma";
 import VotingPanel from "@/components/VotingPanel";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ConsentModal from "@/components/ConsentModal";
+import ConsentGuard from "@/components/ConsentGuard"; // 👈 IMPORT THE GUARD
 
 export const dynamic = "force-dynamic";
 
@@ -33,18 +33,16 @@ export default async function VotePage({
   const govCandidates = candidates.filter((c) => c.office === "governor");
   const mpCandidates = candidates.filter((c) => c.office === "mp");
 
-  // 4. Calculate Leading Governor (FIXED)
+  // 4. Calculate Leading Governor
   const govVotes = await prisma.vote.groupBy({
     by: ['candidateId'],
     where: {
       countyId: county.id,
       candidate: { office: 'governor' }
     },
-    // We explicitly count the candidateId column
     _count: {
       candidateId: true 
     },
-    // We ORDER BY the count of candidateId, NOT _all
     orderBy: {
       _count: {
         candidateId: 'desc' 
@@ -60,13 +58,14 @@ export default async function VotePage({
     leadingGov = await prisma.candidate.findUnique({
       where: { id: govVotes[0].candidateId }
     });
-    // Access the count using the same field we counted above
     leadingGovVotes = govVotes[0]._count.candidateId;
   }
 
   return (
     <main className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans">
-      <ConsentModal />
+      
+      {/* 👇 REPLACE ConsentModal WITH ConsentGuard */}
+      <ConsentGuard />
       
       {/* Navigation */}
       <header className="sticky top-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
@@ -101,7 +100,7 @@ export default async function VotePage({
 
               {/* The Leader Card */}
               {leadingGov ? (
-                <div className="flex items-center gap-4 bg-slate-800 p-4 rounded-xl border border-slate-700 min-w-[300px]">
+                <div className="flex items-center gap-4 bg-slate-800 p-4 rounded-xl border border-slate-700 min-w-75">
                   <div className="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center font-bold text-xl text-white">
                     {leadingGov.name.charAt(0)}
                   </div>
@@ -112,7 +111,7 @@ export default async function VotePage({
                   </div>
                 </div>
               ) : (
-                <div className="flex items-center gap-4 bg-slate-800 p-4 rounded-xl border border-slate-700 min-w-[300px]">
+                <div className="flex items-center gap-4 bg-slate-800 p-4 rounded-xl border border-slate-700 min-w-75">
                    <div className="text-slate-400 italic">No data collected yet. Be the first.</div>
                 </div>
               )}

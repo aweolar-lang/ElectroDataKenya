@@ -13,12 +13,18 @@ export default function ConsentModal({ isOpen, onAccept, onClose }: Props) {
 
   // Handle animation when 'isOpen' changes
   useEffect(() => {
+    let timeoutId: NodeJS.Timeout;
+    
     if (isOpen) {
       // Small delay to allow render before animating in
-      requestAnimationFrame(() => setAnimate(true));
+      // Using setTimeout instead of RAF often stabilizes strict mode double-invocations
+      timeoutId = setTimeout(() => setAnimate(true), 10);
     } else {
-      setAnimate(false);
+      // FIX: Also make this async to avoid the "synchronous setState" warning
+      timeoutId = setTimeout(() => setAnimate(false), 10);
     }
+
+    return () => clearTimeout(timeoutId);
   }, [isOpen]);
 
   if (!isOpen) return null;
@@ -26,7 +32,7 @@ export default function ConsentModal({ isOpen, onAccept, onClose }: Props) {
   return (
     <div 
       className={`
-        fixed inset-0 z-[100] flex items-center justify-center p-4 
+        fixed inset-0 z-100 flex items-center justify-center p-4 
         bg-slate-900/70 backdrop-blur-sm transition-opacity duration-300 ease-out
         ${animate ? "opacity-100" : "opacity-0"}
       `}
@@ -41,7 +47,7 @@ export default function ConsentModal({ isOpen, onAccept, onClose }: Props) {
       >
         
         {/* Decorative Top Strip (Kenya Colors) */}
-        <div className="h-1.5 w-full bg-gradient-to-r from-black via-[#BB0000] to-[#006600]"></div>
+        <div className="h-1.5 w-full bg-linear-to-r from-black via-[#BB0000] to-[#006600]"></div>
 
         {/* Header */}
         <div className="p-6 pb-2">
@@ -75,7 +81,7 @@ export default function ConsentModal({ isOpen, onAccept, onClose }: Props) {
            {/* Privacy Points */}
            <div className="space-y-3 pt-2">
              <div className="flex gap-3 items-start">
-               <div className="w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+               <div className="w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5">
                  🛡️
                </div>
                <div>
@@ -87,7 +93,7 @@ export default function ConsentModal({ isOpen, onAccept, onClose }: Props) {
              </div>
 
              <div className="flex gap-3 items-start">
-               <div className="w-8 h-8 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+               <div className="w-8 h-8 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-600 flex items-center justify-center shrink-0 mt-0.5">
                  🍪
                </div>
                <div>
