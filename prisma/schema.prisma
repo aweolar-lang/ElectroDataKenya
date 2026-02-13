@@ -1,0 +1,78 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  // url and directUrl are REMOVED from here in Prisma 7
+}
+
+model County {
+  id             String         @id @default(cuid())
+  code           Int            @unique
+  name           String
+  
+  // Relations
+  constituencies Constituency[] // ✅ NEW
+  candidates     Candidate[]    @relation("HomeCounty")
+  votes          Vote[]      
+  
+  createdAt      DateTime       @default(now())
+}
+
+model Constituency {
+  id         String      @id @default(cuid())
+  name       String
+  
+  // Relations
+  countyId   String
+  county     County      @relation(fields: [countyId], references: [id])
+  
+  candidates Candidate[] // ✅ NEW: MPs belong here
+  votes      Vote[]
+}
+
+model Candidate {
+  id             String   @id @default(cuid())
+  name           String
+  party          String?
+  office         String
+  bio            String?  @db.Text
+  photoUrl       String?
+  
+  // Relations
+  homeCountyId   String?
+  homeCounty     County?  @relation("HomeCounty", fields: [homeCountyId], references: [id])
+
+  constituencyId String?    // ✅ NEW
+  constituency   Constituency? @relation(fields: [constituencyId], references: [id])
+
+  votes          Vote[]
+
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([office])
+  @@index([homeCountyId])
+  @@index([constituencyId])
+}
+
+model Vote {
+  id          String    @id @default(cuid())
+  sessionId   String
+  
+  candidateId String
+  candidate   Candidate @relation(fields: [candidateId], references: [id])
+  
+  countyId    String
+  county      County    @relation(fields: [countyId], references: [id])
+  
+  constituencyId String?
+  constituency   Constituency? @relation(fields: [constituencyId], references: [id])
+
+  createdAt   DateTime  @default(now())
+
+  @@index([countyId])
+  @@index([candidateId])
+  @@index([sessionId])
+}

@@ -1,0 +1,191 @@
+{
+  "governors": [
+    { "name": "Abdullswamad Sherrif Nassir", "party": "ODM", "countyCode": 1 },
+    { "name": "Mohammed Ali (Jicho Pevu)", "party": "UDA", "countyCode": 1 },
+    { "name": "Hassan Omar", "party": "UDA", "countyCode": 1 },
+
+    { "name": "Fatuma Achani", "party": "UDA", "countyCode": 2 },
+    { "name": "Hamadi Iddi Boga", "party": "ODM", "countyCode": 2 },
+    { "name": "Chirau Ali Mwakwere", "party": "Wiper", "countyCode": 2 },
+
+    { "name": "Gideon Maitha Mung'aro", "party": "ODM", "countyCode": 3 },
+    { "name": "Aisha Jumwa", "party": "UDA", "countyCode": 3 },
+    { "name": "Owen Baya", "party": "UDA", "countyCode": 3 },
+
+    { "name": "Dhadho Godhana (Retiring)", "party": "ODM", "countyCode": 4 },
+    { "name": "Hussein Dado", "party": "UDA", "countyCode": 4 },
+    { "name": "Dr. Nuh Nassir", "party": "UDA", "countyCode": 4 },
+
+    { "name": "Issa Timamy (Retiring)", "party": "ANC", "countyCode": 5 },
+    { "name": "Fahim Twaha", "party": "Jubilee", "countyCode": 5 },
+    { "name": "Eric Mushombo", "party": "Independent", "countyCode": 5 },
+
+    { "name": "Andrew Mwadime", "party": "Independent", "countyCode": 6 },
+    { "name": "Grantone Samboja", "party": "Jubilee", "countyCode": 6 },
+    { "name": "John Mruttu", "party": "UDA", "countyCode": 6 },
+
+    { "name": "Nathif Adam (Retiring)", "party": "ODM", "countyCode": 7 },
+    { "name": "Ali Bunow Korane", "party": "Jubilee", "countyCode": 7 },
+    { "name": "Dekow Mohamed", "party": "UDA", "countyCode": 7 },
+
+    { "name": "FCPA Ahmed Abdullahi (Retiring)", "party": "ODM", "countyCode": 8 },
+    { "name": "Mohamed Abdi Mohamud", "party": "Independent", "countyCode": 8 },
+    { "name": "Dr. Hassan Mohamed", "party": "UDA", "countyCode": 8 },
+
+    { "name": "Mohamed Adan Khalif", "party": "UDM", "countyCode": 9 },
+    { "name": "Adan Mohamed", "party": "Jubilee", "countyCode": 9 },
+    { "name": "Hassan Noor Hassan", "party": "ODM", "countyCode": 9 },
+
+    { "name": "Mohamud Mohamed Ali (Retiring)", "party": "UDA", "countyCode": 10 },
+    { "name": "Chachu Ganya", "party": "KNA", "countyCode": 10 },
+    { "name": "Pius Yattani", "party": "UPIA", "countyCode": 10 },
+
+    { "name": "Abdi Ibrahim Guyo", "party": "Jubilee", "countyCode": 11 },
+    { "name": "Godana Doyo", "party": "Independent", "countyCode": 11 },
+    { "name": "Hussein Tene", "party": "UDA", "countyCode": 11 },
+
+    { "name": "Kawira Mwangaza", "party": "Independent", "countyCode": 12 },
+    { "name": "Mithika Linturi", "party": "UDA", "countyCode": 12 },
+    { "name": "Kathuri Murungi", "party": "UDA", "countyCode": 12 },
+
+    { "name": "Muthomi Njuki (Retiring)", "party": "UDA", "countyCode": 13 },
+    { "name": "Kithure Kindiki (If not DP)", "party": "UDA", "countyCode": 13 },
+    { "name": "Erastus Njoka", "party": "Jubilee", "countyCode": 13 },
+
+    { "name": "Cecily Mbarire", "party": "UDA", "countyCode": 14 },
+    { "name": "Lenny Kivuti", "party": "DEP (Bus)", "countyCode": 14 },
+    { "name": "Emilio Kathuri", "party": "Jubilee", "countyCode": 14 },
+
+    { "name": "Julius Malombe (Retiring)", "party": "Wiper", "countyCode": 15 },
+    { "name": "David Musila", "party": "Jubilee", "countyCode": 15 },
+    { "name": "Charity Ngilu", "party": "NARC", "countyCode": 15 },
+
+    { "name": "Wavinya Ndeti", "party": "Wiper", "countyCode": 16 },
+    { "name": "Nzioka Waita", "party": "CCU", "countyCode": 16 },
+    { "name": "Patrick Makau", "party": "Wiper", "countyCode": 16 },
+
+    { "name": "Mutula Kilonzo Jr.", "party": "Wiper", "countyCode": 17 },
+    { "name": "Patrick Musimba", "party": "Independent", "countyCode": 17 },
+    { "name": "Prof. Kibwana Proxy", "party": "Muungano", "countyCode": 17 },
+
+    { "name": "Kiarie Badilisha", "party": "UDA", "countyCode": 18 },
+    { "name": "Francis Kimemia", "party": "Jubilee", "countyCode": 18 },
+    { "name": "Waithaka Kirika", "party": "UDA", "countyCode": 18 },
+
+    { "name": "Mutahi Kahiga (Retiring)", "party": "UDA", "countyCode": 19 },
+    { "name": "Wahome Wamatinga", "party": "UDA", "countyCode": 19 },
+    { "name": "Thuo Mathenge", "party": "TND", "countyCode": 19 },
+
+    { "name": "Anne Waiguru (Retiring)", "party": "UDA", "countyCode": 20 },
+    { "name": "Wangui Ngirici", "party": "Jubilee", "countyCode": 20 },
+    { "name": "Joseph Gachoki Gitari", "party": "UDA", "countyCode": 20 },
+
+    { "name": "Irungu Kang'ata", "party": "UDA", "countyCode": 21 },
+    { "name": "Jamleck Kamau", "party": "Jubilee", "countyCode": 21 },
+    { "name": "Wairagu wa Maai", "party": "DP", "countyCode": 21 },
+
+    { "name": "Paul Kimani Wamatangi", "party": "UDA", "countyCode": 22 },
+    { "name": "Gathoni Wamuchomba", "party": "DCP", "countyCode": 22 },
+    { "name": "William Kabogo", "party": "Tujibebe", "countyCode": 22 },
+
+    { "name": "Jeremiah Lomorukai", "party": "ODM", "countyCode": 23 },
+    { "name": "John Lodepe", "party": "UDA", "countyCode": 23 },
+    { "name": "Josephat Nanok Proxy", "party": "UDA", "countyCode": 23 },
+
+    { "name": "Simon Kachapin (Retiring)", "party": "UDA", "countyCode": 24 },
+    { "name": "John Lonyangapuo", "party": "KUP", "countyCode": 24 },
+    { "name": "Samuel Moroto", "party": "Jubilee", "countyCode": 24 },
+
+    { "name": "Lati Lelelit", "party": "UDA", "countyCode": 25 },
+    { "name": "Richard Lesiyampe", "party": "Jubilee", "countyCode": 25 },
+    { "name": "Musa Lenolkulal Proxy", "party": "UDA", "countyCode": 25 },
+
+    { "name": "George Natembeya", "party": "DAP-K", "countyCode": 26 },
+    { "name": "Chris Wamalwa", "party": "UDA", "countyCode": 26 },
+    { "name": "Wesley Korir", "party": "UDA", "countyCode": 26 },
+
+    { "name": "Jonathan Bii", "party": "UDA", "countyCode": 27 },
+    { "name": "Caleb Kositany", "party": "UDA", "countyCode": 27 },
+    { "name": "Zedekiah Bundotich (Buzeki)", "party": "Independent", "countyCode": 27 },
+
+    { "name": "Wisley Rotich", "party": "UDA", "countyCode": 28 },
+    { "name": "Alex Tolgos Proxy", "party": "Jubilee", "countyCode": 28 },
+    { "name": "Anthony Kimetto", "party": "Independent", "countyCode": 28 },
+
+    { "name": "Stephen Sang (Retiring)", "party": "UDA", "countyCode": 29 },
+    { "name": "Samson Cherargei", "party": "UDA", "countyCode": 29 },
+    { "name": "Cleophas Lagat", "party": "Independent", "countyCode": 29 },
+
+    { "name": "Benjamin Cheboi (Retiring)", "party": "UDA", "countyCode": 30 },
+    { "name": "Stanley Kiptis", "party": "Independent", "countyCode": 30 },
+    { "name": "Gideon Moi", "party": "KANU", "countyCode": 30 },
+
+    { "name": "Joshua Irungu (Retiring)", "party": "UDA", "countyCode": 31 },
+    { "name": "Ndiritu Muriithi", "party": "Jubilee", "countyCode": 31 },
+    { "name": "Cate Waruguru", "party": "UDA", "countyCode": 31 },
+
+    { "name": "Susan Kihika", "party": "UDA", "countyCode": 32 },
+    { "name": "Lee Kinyanjui", "party": "Jubilee", "countyCode": 32 },
+    { "name": "Tabitha Karanja", "party": "UDA", "countyCode": 32 },
+
+    { "name": "Patrick Ole Ntutu", "party": "UDA", "countyCode": 33 },
+    { "name": "Moitalel Ole Kenta", "party": "ODM", "countyCode": 33 },
+    { "name": "Ledama Olekina", "party": "ODM", "countyCode": 33 },
+
+    { "name": "Joseph Ole Lenku (Retiring)", "party": "ODM", "countyCode": 34 },
+    { "name": "Katoo Ole Metito", "party": "UDA", "countyCode": 34 },
+    { "name": "David Nkedianye", "party": "Jubilee", "countyCode": 34 },
+
+    { "name": "Erick Mutai", "party": "UDA", "countyCode": 35 },
+    { "name": "Charles Keter", "party": "UDA", "countyCode": 35 },
+    { "name": "Fred Kirui", "party": "Independent", "countyCode": 35 },
+
+    { "name": "Hillary Barchok (Retiring)", "party": "UDA", "countyCode": 36 },
+    { "name": "Isaac Rutto", "party": "CCM", "countyCode": 36 },
+    { "name": "John Mosonik", "party": "UDA", "countyCode": 36 },
+
+    { "name": "Fernandes Barasa", "party": "ODM", "countyCode": 37 },
+    { "name": "Cleophas Malala", "party": "DCP", "countyCode": 37 },
+    { "name": "Boni Khalwale", "party": "UDA", "countyCode": 37 },
+
+    { "name": "Wilber Ottichilo (Retiring)", "party": "ODM", "countyCode": 38 },
+    { "name": "George Khaniri", "party": "UDP", "countyCode": 38 },
+    { "name": "Sabatia MP (Clement Sloya)", "party": "UDA", "countyCode": 38 },
+
+    { "name": "Kenneth Lusaka (Retiring)", "party": "Ford-Kenya", "countyCode": 39 },
+    { "name": "Wycliffe Wangamati", "party": "DAP-K", "countyCode": 39 },
+    { "name": "Zachariah Baraza", "party": "UDA", "countyCode": 39 },
+
+    { "name": "Paul Otuoma", "party": "ODM", "countyCode": 40 },
+    { "name": "Okiya Omtatah", "party": "NRA", "countyCode": 40 },
+    { "name": "Florence Mutua", "party": "ODM", "countyCode": 40 },
+
+    { "name": "James Orengo", "party": "ODM", "countyCode": 41 },
+    { "name": "Nicholas Gumbo", "party": "UDM", "countyCode": 41 },
+    { "name": "William Oduol", "party": "ODM Rebel", "countyCode": 41 },
+
+    { "name": "Anyang' Nyong'o (Retiring)", "party": "ODM", "countyCode": 42 },
+    { "name": "Ken Obura", "party": "Independent", "countyCode": 42 },
+    { "name": "Ruth Odinga", "party": "ODM", "countyCode": 42 },
+
+    { "name": "Gladys Wanga", "party": "ODM", "countyCode": 43 },
+    { "name": "Evans Kidero", "party": "Independent/UDA", "countyCode": 43 },
+    { "name": "John Mbadi", "party": "ODM", "countyCode": 43 },
+
+    { "name": "Ochilo Ayacko", "party": "ODM", "countyCode": 44 },
+    { "name": "John Pesa", "party": "DAP-K", "countyCode": 44 },
+    { "name": "Dalmas Otieno", "party": "Jubilee", "countyCode": 44 },
+
+    { "name": "Simba Arati", "party": "ODM", "countyCode": 45 },
+    { "name": "Sylvanus Osoro", "party": "UDA", "countyCode": 45 },
+    { "name": "Ezekiel Machogu", "party": "UDA", "countyCode": 45 },
+
+    { "name": "Amos Nyaribo (Retiring)", "party": "UPA", "countyCode": 46 },
+    { "name": "Timothy Bosire", "party": "ODM", "countyCode": 46 },
+    { "name": "Walter Nyambati", "party": "UDA", "countyCode": 46 },
+
+    { "name": "Johnson Sakaja", "party": "UDA", "countyCode": 47 },
+    { "name": "Babu Owino", "party": "ODM", "countyCode": 47 },
+    { "name": "Tim Wanyonyi", "party": "ODM", "countyCode": 47 }
+  ]
+}

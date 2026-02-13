@@ -1,0 +1,351 @@
+{
+  "mps": [
+    {
+      "county": "Mombasa", "code": 1, "constituencies": [
+        { "name": "Changamwe", "mp": "Omar Mwinyi", "party": "ODM", "aspirants_2027": ["Abdi Daib (UDA)", "Peterson Mitau (Independent)"] },
+        { "name": "Jomvu", "mp": "Bady Twalib", "party": "ODM", "aspirants_2027": ["Karisa Nzai (UDA)", "Abdulrahim Kajembe (DCP)"] },
+        { "name": "Kisauni", "mp": "Rashid Bedzimba", "party": "ODM", "aspirants_2027": ["Ali Mbogo (UDA)", "Beatrice Gambo (DCP)"] },
+        { "name": "Nyali", "mp": "Mohamed Ali (Jicho Pevu)", "party": "UDA", "aspirants_2027": ["Said Abdalla 'Saido' (ODM)", "Yassir Noor (DCP)"] },
+        { "name": "Likoni", "mp": "Mishi Mboko", "party": "ODM", "aspirants_2027": ["Mwalimu Masoud Mwahima (UDA)", "Suleiman Shakombo (Jubilee)"] },
+        { "name": "Mvita", "mp": "Mohamed Machele", "party": "ODM", "aspirants_2027": ["Omar Shallo (UDA)", "Swaleh Sherman (DCP)"] }
+      ]
+    },
+    {
+      "county": "Kwale", "code": 2, "constituencies": [
+        { "name": "Msambweni", "mp": "Feisal Bader", "party": "UDA", "aspirants_2027": ["Omar Boga (ODM)", "Mwanaisha Chidzuga (DCP)"] },
+        { "name": "Lunga Lunga", "mp": "Mangale Munga Chiforomodo", "party": "UDM", "aspirants_2027": ["Khatib Mwashetani (UDA)", "Benson Mutisya (ODM)"] },
+        { "name": "Matuga", "mp": "Kassim Sawa Tandaza", "party": "ANC", "aspirants_2027": ["Mwaguzo H. Mwaguzo (UDA)", "Hassan Mwanyoha (ODM)"] },
+        { "name": "Kinango", "mp": "Gonzi Rai", "party": "PAA", "aspirants_2027": ["Benjamin Tayari (UDA)", "Zuleikha Hassan (ODM)"] }
+      ]
+    },
+    {
+      "county": "Kilifi", "code": 3, "constituencies": [
+        { "name": "Kilifi North", "mp": "Owen Baya", "party": "UDA", "aspirants_2027": ["Eliud Kalama (ODM)", "Ian Malu (DCP)"] },
+        { "name": "Kilifi South", "mp": "Ken Chonga", "party": "ODM", "aspirants_2027": ["Flora Chibule (UDA)", "Sophie Kombe (PAA)"] },
+        { "name": "Kaloleni", "mp": "Paul Katana", "party": "ODM", "aspirants_2027": ["Kitsao Ngowa (UDA)", "Edward Saro (DCP)"] },
+        { "name": "Rabai", "mp": "Anthony Kenga Mupe", "party": "PAA", "aspirants_2027": ["William Kamoti Proxy (ODM)", "Philip Mbaji (UDA)"] },
+        { "name": "Ganze", "mp": "Kenneth Kazungu", "party": "PAA", "aspirants_2027": ["Teddy Mwambire (ODM)", "Anderson Kethi (UDA)"] },
+        { "name": "Malindi", "mp": "Amina Mnyazi", "party": "ODM", "aspirants_2027": ["Phillip Charo (UDA)", "Jamal Sheikh (DCP)"] },
+        { "name": "Magarini", "mp": "Harrison Kombe", "party": "ODM", "aspirants_2027": ["Stanley Kenga (UDA)", "Michael Kingi (PAA)"] }
+      ]
+    },
+    {
+      "county": "Tana River", "code": 4, "constituencies": [
+        { "name": "Garsen", "mp": "Ali Wario Guyo", "party": "ODM", "aspirants_2027": ["Hussein Dado (UDA)", "Ibrahim Sane (Jubilee)"] },
+        { "name": "Galole", "mp": "Said Buya Hiribae", "party": "ODM", "aspirants_2027": ["Hassan Dukicha (UDA)", "Fauzia Sade (DCP)"] },
+        { "name": "Bura", "mp": "Yakub Adow Kuno", "party": "UPIA", "aspirants_2027": ["Ali Wario (UDA)", "Dr. Nuh Nassir (ODM)"] }
+      ]
+    },
+    {
+      "county": "Lamu", "code": 5, "constituencies": [
+        { "name": "Lamu East", "mp": "Ruweida Mohamed Obo", "party": "Jubilee", "aspirants_2027": ["Sharif Athman (UDA)", "Shekuwe Kahale (ODM)"] },
+        { "name": "Lamu West", "mp": "Stanley Muthama", "party": "Jubilee", "aspirants_2027": ["Rishad Amana (ODM)", "Joseph Kimani (UDA)"] }
+      ]
+    },
+    {
+      "county": "Taita Taveta", "code": 6, "constituencies": [
+        { "name": "Taveta", "mp": "John Bwire", "party": "Wiper", "aspirants_2027": ["Dr. Naomi Shaban (UDA)", "Morris Mutiso (ODM)"] },
+        { "name": "Wundanyi", "mp": "Danson Mwashako", "party": "Wiper", "aspirants_2027": ["Simon Mwachia (UDA)", "Thomas Mwadeghu (ODM)"] },
+        { "name": "Mwatate", "mp": "Peter Shake", "party": "Jubilee", "aspirants_2027": ["Andrew Mwadime Proxy (Independent)", "Christopher Mwambingu (UDA)"] },
+        { "name": "Voi", "mp": "Khamis Abdi Chome", "party": "Wiper", "aspirants_2027": ["Jones Mlolwa (ODM)", "Dishon Mngoda (UDA)"] }
+      ]
+    },
+    {
+      "county": "Garissa", "code": 7, "constituencies": [
+        { "name": "Garissa Township", "mp": "Dekow Mohamed", "party": "UDA", "aspirants_2027": ["Nasir Dolal (ODM)", "Mohamed Barrow (DCP)"] },
+        { "name": "Balambala", "mp": "Abdi Omar Shurie", "party": "Jubilee", "aspirants_2027": ["Abdikadir Aden (UDA)", "Ismail Arale (ODM)"] },
+        { "name": "Lagdera", "mp": "Abdikadir Hussein Mohamed", "party": "ODM", "aspirants_2027": ["Mohamed Hire (UDA)", "Mohamed Shidiye (Jubilee)"] },
+        { "name": "Dadaab", "mp": "Farah Maalim", "party": "Wiper", "aspirants_2027": ["Dr. Dabar (UDA)", "Mohamed Duale (ODM)"] },
+        { "name": "Fafi", "mp": "Salah Yakub", "party": "UDA", "aspirants_2027": ["Abdikarim Osman (ODM)", "Mohamed Subey (Jubilee)"] },
+        { "name": "Ijara", "mp": "Abdi Ali Abdi", "party": "NAP-K", "aspirants_2027": ["Sophia Abdi Noor (UDA)", "Ibrahim Abass (ODM)"] }
+      ]
+    },
+    {
+      "county": "Wajir", "code": 8, "constituencies": [
+        { "name": "Wajir North", "mp": "Ibrahim Saney", "party": "UDA", "aspirants_2027": ["Ahmed Abdisalan (ODM)", "Abdullahi Ali (Jubilee)"] },
+        { "name": "Wajir East", "mp": "Adan Daud", "party": "Jubilee", "aspirants_2027": ["Rashid Kassim (UDA)", "Ahmed Kolosh (ODM)"] },
+        { "name": "Tarbaj", "mp": "Hussein Abdi Barre", "party": "UDA", "aspirants_2027": ["Ahmed Bashir (ODM)", "Idris Abdiau (Jubilee)"] },
+        { "name": "Wajir West", "mp": "Yusuf Farah", "party": "ODM", "aspirants_2027": ["Ahmed Kolosh (UDA)", "Mohamed Keynan (Jubilee)"] },
+        { "name": "Eldas", "mp": "Adan Keynan", "party": "Jubilee", "aspirants_2027": ["Ahmed Boray (UDA)", "Abdi Sirat (ODM)"] },
+        { "name": "Wajir South", "mp": "Mohamed Adow", "party": "ODM", "aspirants_2027": ["Mohamud Sirat (UDA)", "Shukran Gure (Jubilee)"] }
+      ]
+    },
+    {
+      "county": "Mandera", "code": 9, "constituencies": [
+        { "name": "Mandera West", "mp": "Yusuf Adan Haji", "party": "UDM", "aspirants_2027": ["Mohamed Maalim (UDA)", "Adan Haji (Jubilee)"] },
+        { "name": "Banissa", "mp": "Nurudin Maalim Dalato", "party": "Independent", "aspirants_2027": ["Kulow Hassan Proxy (UDM)", "Mohamed Abdi (UDA)"] },
+        { "name": "Mandera North", "mp": "Bashir Abdullahi", "party": "UDM", "aspirants_2027": ["Major Bashir (UDA)", "Salah Maalim (Jubilee)"] },
+        { "name": "Mandera South", "mp": "Abdul Haro", "party": "UDM", "aspirants_2027": ["Adan Haji (UDA)", "Mohamed Huka (Jubilee)"] },
+        { "name": "Mandera East", "mp": "Hussein Weytan", "party": "ODM", "aspirants_2027": ["Omar Maalim (UDA)", "Mohamed Khalif (UDM)"] },
+        { "name": "Lafey", "mp": "Mohamed Abdi Abdirahman", "party": "Jubilee", "aspirants_2027": ["Abdi Mude (UDA)", "Isaack Shabaan (ODM)"] }
+      ]
+    },
+    {
+      "county": "Marsabit", "code": 10, "constituencies": [
+        { "name": "Moyale", "mp": "Guyu Waqo Jaldesa", "party": "UDA", "aspirants_2027": ["Qalicha Gufu (ODM)", "Roba Duba (UPF)"] },
+        { "name": "North Horr", "mp": "Wario Guyo Adhe", "party": "KANU", "aspirants_2027": ["Francis Ganya (UDA)", "Ukur Yattani Proxy (UPF)"] },
+        { "name": "Saku", "mp": "Dido Ali Raso", "party": "UDA", "aspirants_2027": ["Jillo Guyo (ODM)", "Halakhe Waqo (UPF)"] },
+        { "name": "Laisamis", "mp": "Joseph Lekuton", "party": "UDM", "aspirants_2027": ["Marselino Arbelle (UDA)", "David Timado (ODM)"] }
+      ]
+    },
+    {
+      "county": "Isiolo", "code": 11, "constituencies": [
+        { "name": "Isiolo North", "mp": "Joseph Samal", "party": "Jubilee", "aspirants_2027": ["Hassan Odha (UDA)", "Lucy Mworia (DCP)"] },
+        { "name": "Isiolo South", "mp": "Mohamed Tubi", "party": "Jubilee", "aspirants_2027": ["Abdi Koropu (UDA)", "Doyo Godana Proxy (Independent)"] }
+      ]
+    },
+    {
+      "county": "Meru", "code": 12, "constituencies": [
+        { "name": "Igembe South", "mp": "John Paul Mwirigi", "party": "UDA", "aspirants_2027": ["Mithika Linturi Proxy (DCP)", "Rufus Miriti (Jubilee)"] },
+        { "name": "Igembe Central", "mp": "Dan Kiili", "party": "Jubilee", "aspirants_2027": ["Kubai Kiringo (UDA)", "James Mithika (DCP)"] },
+        { "name": "Igembe North", "mp": "Julius Taitumu", "party": "UDA", "aspirants_2027": ["Maoka Maore (Jubilee)", "Justus Kagwima (DCP)"] },
+        { "name": "Tigania West", "mp": "John Mutunga", "party": "UDA", "aspirants_2027": ["David Karithi (Jubilee)", "Henry Kurauka (DCP)"] },
+        { "name": "Tigania East", "mp": "Mpuru Aburi", "party": "NOPEU", "aspirants_2027": ["Josphat Gichunge (UDA)", "Lawrence Mpuru (DCP)"] },
+        { "name": "North Imenti", "mp": "Rahim Dawood", "party": "Independent", "aspirants_2027": ["Carol Muriuki (UDA)", "Beatrice Kathomi (DCP)"] },
+        { "name": "Buuri", "mp": "Mugambi Rindikiri", "party": "UDA", "aspirants_2027": ["Boniface Kinoti (Jubilee)", "Mugambi Angaine (DCP)"] },
+        { "name": "Central Imenti", "mp": "Moses Kirima", "party": "UDA", "aspirants_2027": ["Gideon Mwiti (Jubilee)", "Mwenda Makathimo (DCP)"] },
+        { "name": "South Imenti", "mp": "Shadrack Mwiti", "party": "Jubilee", "aspirants_2027": ["Kathuri Murungi Proxy (UDA)", "Jasper Muthomi (MC Jessy) (DCP)"] }
+      ]
+    },
+    {
+      "county": "Tharaka Nithi", "code": 13, "constituencies": [
+        { "name": "Maara", "mp": "Kareke Mbiuki", "party": "UDA", "aspirants_2027": ["Lawrence Kaburu (DCP)", "Muthoni Nuki (Jubilee)"] },
+        { "name": "Chuka/Igambang'ombe", "mp": "Patrick Munene", "party": "UDA", "aspirants_2027": ["Erastus Njoka (Jubilee)", "John Mbaka (DCP)"] },
+        { "name": "Tharaka", "mp": "George Murugara", "party": "UDA", "aspirants_2027": ["Sabastian Mwangangi (DCP)", "Alex Mugambi (Jubilee)"] }
+      ]
+    },
+    {
+      "county": "Embu", "code": 14, "constituencies": [
+        { "name": "Manyatta", "mp": "Gitonga Mukunji", "party": "UDA", "aspirants_2027": ["John Muchiri (DCP)", "Kinyua Mugo (Jubilee)"] },
+        { "name": "Runyenjes", "mp": "Eric Muchangi (Karemba)", "party": "UDA", "aspirants_2027": ["John Njiru (DCP)", "Steve Munene (Jubilee)"] },
+        { "name": "Mbeere South", "mp": "Nebart Muriuki", "party": "Independent", "aspirants_2027": ["Genesio Mugo (UDA)", "Bernadette Mulyungi (DCP)"] },
+        { "name": "Mbeere North", "mp": "Newton Kariuki Ndegwa", "party": "DCP", "aspirants_2027": ["Geoffrey Ruku Proxy (UDA)", "Patrick Njiru (Jubilee)"] }
+      ]
+    },
+    {
+      "county": "Kitui", "code": 15, "constituencies": [
+        { "name": "Mwingi North", "mp": "Paul Nzengu", "party": "Wiper", "aspirants_2027": ["John Munuve (UDA)", "Eng. Malombe Proxy (DCP)"] },
+        { "name": "Mwingi West", "mp": "Charles Nguna", "party": "Wiper", "aspirants_2027": ["Mwende Mwendwa (UDA)", "Patrick Musimba (Independent)"] },
+        { "name": "Mwingi Central", "mp": "Gideon Mulyungi", "party": "Wiper", "aspirants_2027": ["Lydia Mutambu (UDA)", "Nuami Mwanzia (Jubilee)"] },
+        { "name": "Kitui West", "mp": "Edith Nyenze", "party": "Wiper", "aspirants_2027": ["Benedict Mutiso (UDA)", "Robert Muthini (DCP)"] },
+        { "name": "Kitui Rural", "mp": "David Mwalika", "party": "Wiper", "aspirants_2027": ["Charles Nyamai (UDA)", "Hillary Kasoka (Independent)"] },
+        { "name": "Kitui Central", "mp": "Makali Mulu", "party": "Wiper", "aspirants_2027": ["Bonnie Musambi (UDA)", "Moses Banda (DCP)"] },
+        { "name": "Kitui East", "mp": "Nimrod Mbai", "party": "UDA", "aspirants_2027": ["Miltonic Mwendwa (Wiper)", "Vincent Munyaka (DCP)"] },
+        { "name": "Kitui South", "mp": "Rachael Nyamai", "party": "Jubilee", "aspirants_2027": ["Daniel Ndambuki (Wiper)", "Onesmus Mumo (UDA)"] }
+      ]
+    },
+    {
+      "county": "Machakos", "code": 16, "constituencies": [
+        { "name": "Masinga", "mp": "Joshua Mwalyo", "party": "Independent", "aspirants_2027": ["David Mutua (Wiper)", "Lawrence Maingi (UDA)"] },
+        { "name": "Yatta", "mp": "Robert Basil", "party": "Wiper", "aspirants_2027": ["Francis Mwangangi (UDA)", "James Mutiso (DCP)"] },
+        { "name": "Kangundo", "mp": "Fabian Kyule", "party": "GDDP", "aspirants_2027": ["Rose Wambua (Wiper)", "Mulei Mbiti (UDA)"] },
+        { "name": "Matungulu", "mp": "Stephen Mule", "party": "Wiper", "aspirants_2027": ["Thomas Musau (UDA)", "Philip Munyao (DCP)"] },
+        { "name": "Kathiani", "mp": "Robert Mbui", "party": "Wiper", "aspirants_2027": ["Alphonce Kioko (UDA)", "Patrick Brennan (Independent)"] },
+        { "name": "Mavoko", "mp": "Patrick Makau", "party": "Wiper", "aspirants_2027": ["Daniel Mbevi (UDA)", "Michael Mutua (DCP)"] },
+        { "name": "Machakos Town", "mp": "Caleb Mule", "party": "MCCP", "aspirants_2027": ["Victor Munyaka (UDA)", "Joseph Kioko (Wiper)"] },
+        { "name": "Mwala", "mp": "Vincent Musyoka (Kawaya)", "party": "UDA", "aspirants_2027": ["Daniel Muema (Wiper)", "Kalonzo Musyoka Jr. (Wiper)"] }
+      ]
+    },
+    {
+      "county": "Makueni", "code": 17, "constituencies": [
+        { "name": "Mbooni", "mp": "Erastus Kivasu", "party": "Wiper", "aspirants_2027": ["Kisoi Munyao (UDA)", "Mary Mutinga (DCP)"] },
+        { "name": "Kilome", "mp": "Thuddeus Nzambia", "party": "Wiper", "aspirants_2027": ["Regina Ndambuki (UDA)", "Joshua Kimilu (DCP)"] },
+        { "name": "Kaiti", "mp": "Joshua Kimilu", "party": "Wiper", "aspirants_2027": ["Terry Mbaika (UDA)", "Joseph Kioko (DCP)"] },
+        { "name": "Makueni", "mp": "Suzanne Kiamba", "party": "Wiper", "aspirants_2027": ["Daniel Maanzo (UDA)", "Francis Mutongi (DCP)"] },
+        { "name": "Kibwezi West", "mp": "Mwengi Mutuse", "party": "MCCP", "aspirants_2027": ["Patrick Musimba (Independent)", "James Mbaluka (UDA)"] },
+        { "name": "Kibwezi East", "mp": "Jessica Mbalu", "party": "Wiper", "aspirants_2027": ["Adil Zaheer (UDA)", "Prof. Philip Kaloki (Jubilee)"] }
+      ]
+    },
+    {
+      "county": "Nyandarua", "code": 18, "constituencies": [
+        { "name": "Kinangop", "mp": "Kwenya Thuku", "party": "Jubilee", "aspirants_2027": ["Zachary Kwenya (UDA)", "Amos Kimunya (DCP)"] },
+        { "name": "Kipipiri", "mp": "Wanjiku Muhia", "party": "UDA", "aspirants_2027": ["Amos Kimunya (DCP)", "Raphael Njoroge (Jubilee)"] },
+        { "name": "Ol Kalou", "mp": "David Kiaraho", "party": "Jubilee", "aspirants_2027": ["George Wambugu (UDA)", "Esther Maina (DCP)"] },
+        { "name": "Ol Jorok", "mp": "Michael Muchira", "party": "UDA", "aspirants_2027": ["John Waiganjo (DCP)", "Peter Kimari (Jubilee)"] },
+        { "name": "Ndaragwa", "mp": "George Gachagua", "party": "UDA", "aspirants_2027": ["Jeremiah Kioni (Jubilee)", "Waweru Nderitu (DCP)"] }
+      ]
+    },
+    {
+      "county": "Nyeri", "code": 19, "constituencies": [
+        { "name": "Tetu", "mp": "Geoffrey Wandeto", "party": "UDA", "aspirants_2027": ["James Gichuhi (DCP)", "Martin Luther (Jubilee)"] },
+        { "name": "Kieni", "mp": "Njoroge Wainaina", "party": "UDA", "aspirants_2027": ["Kanini Kega (Jubilee)", "Alex Wachira (DCP)"] },
+        { "name": "Mathira", "mp": "Eric Wamumbi", "party": "UDA", "aspirants_2027": ["Rigathi Gachagua Proxy (DCP)", "Wambura Wa Maranga (Jubilee)"] },
+        { "name": "Othaya", "mp": "Wambugu Wainaina", "party": "UDA", "aspirants_2027": ["Gichuki Mugambi (DCP)", "Mary Wambui (Jubilee)"] },
+        { "name": "Mukurwe-ini", "mp": "John Kaguchia", "party": "UDA", "aspirants_2027": ["Kabando wa Kabando (DCP)", "Anthony Kiai (Jubilee)"] },
+        { "name": "Nyeri Town", "mp": "Duncan Mathenge", "party": "UDA", "aspirants_2027": ["Ngunjiri Wambugu (DCP)", "Esther Murugi (Jubilee)"] }
+      ]
+    },
+    {
+      "county": "Kirinyaga", "code": 20, "constituencies": [
+        { "name": "Mwea", "mp": "Mary Maingi", "party": "UDA", "aspirants_2027": ["Kabinga Wachira (DCP)", "Kibugi Gitonga (Jubilee)"] },
+        { "name": "Gichugu", "mp": "Robert Gichimu", "party": "UDA", "aspirants_2027": ["Njogu Barua (DCP)", "Martha Karua Proxy (Narc-Kenya)"] },
+        { "name": "Ndia", "mp": "George Kariuki", "party": "UDA", "aspirants_2027": ["Stephen Ngare (DCP)", "John Mithamo (Jubilee)"] },
+        { "name": "Kirinyaga Central", "mp": "Joseph Gachoki", "party": "UDA", "aspirants_2027": ["John Wambugu (DCP)", "Munene Wambugu (Jubilee)"] }
+      ]
+    },
+    {
+      "county": "Murang'a", "code": 21, "constituencies": [
+        { "name": "Kangema", "mp": "Peter Kihungi", "party": "UDA", "aspirants_2027": ["Muturi Kigano (DCP)", "Titus Ngahu (Jubilee)"] },
+        { "name": "Mathioya", "mp": "Edwin Mugo", "party": "UDA", "aspirants_2027": ["Peter Kimari (DCP)", "Clement Wambugu (Jubilee)"] },
+        { "name": "Kiharu", "mp": "Ndindi Nyoro", "party": "UDA", "aspirants_2027": ["Karanja Mburu (DCP)", "Dennis Maina (Jubilee)"] },
+        { "name": "Kigumo", "mp": "Joseph Munyoro", "party": "UDA", "aspirants_2027": ["Jamleck Kamau (Jubilee)", "Ruth Mwaniki (DCP)"] },
+        { "name": "Maragwa", "mp": "Mary Waithera", "party": "UDA", "aspirants_2027": ["Elias Mbau (DCP)", "Lawrence Munga (Jubilee)"] },
+        { "name": "Kandara", "mp": "Chege Njuguna", "party": "UDA", "aspirants_2027": ["Alice Wahome Proxy (DCP)", "Julius Kaberere (Jubilee)"] },
+        { "name": "Gatanga", "mp": "Edward Muriu", "party": "UDA", "aspirants_2027": ["Joseph Nduati (DCP)", "Peter Kenneth Proxy (Jubilee)"] }
+      ]
+    },
+    {
+      "county": "Kiambu", "code": 22, "constituencies": [
+        { "name": "Gatundu South", "mp": "Gabriel Kagombe", "party": "UDA", "aspirants_2027": ["Joyce Wanjiku (DCP)", "Ng'ang'a Njoroge (Jubilee)"] },
+        { "name": "Gatundu North", "mp": "Elijah Njoroge", "party": "Independent", "aspirants_2027": ["Wanjiku Kibe (UDA)", "Francis Kigo (DCP)"] },
+        { "name": "Juja", "mp": "George Koimburi", "party": "UDA", "aspirants_2027": ["Aloise Kinyanjui (DCP)", "Francis Waititu (Jubilee)"] },
+        { "name": "Thika Town", "mp": "Alice Ng'ang'a", "party": "UDA", "aspirants_2027": ["David Gakuyo (DCP)", "Patrick Wainaina (Jungle) (Independent)"] },
+        { "name": "Ruiru", "mp": "Simon King'ara", "party": "UDA", "aspirants_2027": ["Esther Gathogo (DCP)", "Isaac Mwaura (UDA)"] },
+        { "name": "Githunguri", "mp": "Gathoni Wamuchomba", "party": "DCP", "aspirants_2027": ["Kago wa Lydia (UDA)", "Njinji Mungai (Jubilee)"] },
+        { "name": "Kiambu", "mp": "John Machua", "party": "UDA", "aspirants_2027": ["Jude Njomo (DCP)", "Eric Mutura (Jubilee)"] },
+        { "name": "Kiambaa", "mp": "Njuguna Wanjiku", "party": "UDA", "aspirants_2027": ["Damaris Wambui (DCP)", "Eric Karungaru (Jubilee)"] },
+        { "name": "Kabete", "mp": "James Wamacukuru", "party": "UDA", "aspirants_2027": ["Charles Chege (DCP)", "Githua Wamacukuru (Jubilee)"] },
+        { "name": "Kikuyu", "mp": "Kimani Ichung'wah", "party": "UDA", "aspirants_2027": ["Owen Ndungu (DCP)", "Stephen Ndichu (Jubilee)"] },
+        { "name": "Limuru", "mp": "John Kiragu", "party": "UDA", "aspirants_2027": ["Peter Mwathi (DCP)", "Samson Njenga (Jubilee)"] },
+        { "name": "Lari", "mp": "Joseph Mburu", "party": "UDA", "aspirants_2027": ["Jonah Mburu (DCP)", "Francis Munyua (Jubilee)"] }
+      ]
+    },
+    {
+      "county": "Turkana", "code": 23, "constituencies": [
+        { "name": "Turkana North", "mp": "Paul Nabuin", "party": "UDA", "aspirants_2027": ["Christopher Nakuleu (Jubilee)", "Jeremiah Lomorukai Proxy (ODM)"] },
+        { "name": "Turkana West", "mp": "Daniel Epuyo", "party": "UDA", "aspirants_2027": ["John Munyes Proxy (Jubilee)", "Ignatius Lomeri (ODM)"] },
+        { "name": "Turkana Central", "mp": "Joseph Emathe", "party": "UDA", "aspirants_2027": ["John Lodepe (Jubilee)", "Robert Naassinyon (ODM)"] },
+        { "name": "Loima", "mp": "Protus Akuja", "party": "UDA", "aspirants_2027": ["Jeremiah Lomorukai (ODM)", "James Lomenen (Jubilee)"] },
+        { "name": "Turkana South", "mp": "Dr. Ariko Namoit", "party": "ODM", "aspirants_2027": ["James Lomenen (UDA)", "Philip Ekuwam (Jubilee)"] },
+        { "name": "Turkana East", "mp": "Nicholas Ngikor", "party": "UDA", "aspirants_2027": ["Josphat Nanok Proxy (Independent)", "Ali Lokiru (ODM)"] }
+      ]
+    },
+    {
+      "county": "West Pokot", "code": 24, "constituencies": [
+        { "name": "Kapenguria", "mp": "Samuel Moroto", "party": "UDA", "aspirants_2027": ["Philemon Lototo (KUP)", "Jacob Yaralima (Independent)"] },
+        { "name": "Sigor", "mp": "Peter Lochakapong", "party": "UDA", "aspirants_2027": ["Philip Rotino (KUP)", "David Pkosing Proxy (Independent)"] },
+        { "name": "Kacheliba", "mp": "Titus Lotee", "party": "KUP", "aspirants_2027": ["Mark Lomunokol (UDA)", "Peter Lokeris (Independent)"] },
+        { "name": "Pokot South", "mp": "David Pkosing", "party": "KUP", "aspirants_2027": ["Simon Kachapin Proxy (UDA)", "James Tekoo (Independent)"] }
+      ]
+    },
+    {
+      "county": "Samburu", "code": 25, "constituencies": [
+        { "name": "Samburu West", "mp": "Naisula Lesuuda", "party": "KANU", "aspirants_2027": ["Raphael Lenkamai (UDA)", "Jonathan Lelelit Proxy (Independent)"] },
+        { "name": "Samburu North", "mp": "Eli Letipila", "party": "UDA", "aspirants_2027": ["Alois Lentoimaga (Jubilee)", "Stacy Lentoimaga (Independent)"] },
+        { "name": "Samburu East", "mp": "Jackson Lekumontare", "party": "KANU", "aspirants_2027": ["Jackson Lelenkeju (UDA)", "Raphael Letimalo (Independent)"] }
+      ]
+    },
+    {
+      "county": "Trans Nzoia", "code": 26, "constituencies": [
+        { "name": "Kwanza", "mp": "Ferdinand Wanyonyi", "party": "Ford-K", "aspirants_2027": ["Abraham Singoei (UDA)", "Richard Simiyu (DAP-K)"] },
+        { "name": "Endebess", "mp": "Robert Pukose", "party": "UDA", "aspirants_2027": ["Alwin Sasia (DAP-K)", "Paul Moiben (Independent)"] },
+        { "name": "Saboti", "mp": "Caleb Amisi", "party": "ODM", "aspirants_2027": ["Bernard Wambwa (UDA)", "David Wafula (Ford-K)"] },
+        { "name": "Kiminini", "mp": "Kakai Bisau", "party": "DAP-K", "aspirants_2027": ["Chris Wamalwa (UDA)", "Julius Mbagaya (Ford-K)"] },
+        { "name": "Cherangany", "mp": "Patrick Simiyu", "party": "DAP-K", "aspirants_2027": ["Joshua Kutuny (UDA)", "Wesley Korir (Independent)"] }
+      ]
+    },
+    {
+      "county": "Uasin Gishu", "code": 27, "constituencies": [
+        { "name": "Soy", "mp": "David Kiplagat", "party": "UDA", "aspirants_2027": ["Caleb Kositany (Independent)", "Jonathan Bii Proxy (UDA Rebel)"] },
+        { "name": "Turbo", "mp": "Janet Sitienei", "party": "UDA", "aspirants_2027": ["Kevin Okwara (Independent)", "Samson Cherargei Proxy (UDA Rebel)"] },
+        { "name": "Moiben", "mp": "Phylis Bartoo", "party": "UDA", "aspirants_2027": ["Silas Tiren (Independent)", "James Kibor (UDA Rebel)"] },
+        { "name": "Ainabkoi", "mp": "Samuel Chepkonga", "party": "UDA", "aspirants_2027": ["William Chepkut Proxy (Independent)", "Terry Maina (UDA Rebel)"] },
+        { "name": "Kapseret", "mp": "Oscar Sudi", "party": "UDA", "aspirants_2027": ["Steve Kewa (Independent)", "Frank Murgor (UDA Rebel)"] },
+        { "name": "Kesses", "mp": "Julius Rutto", "party": "UDA", "aspirants_2027": ["Swarup Mishra (Independent)", "Alex Kosgey (UDA Rebel)"] }
+      ]
+    },
+    {
+      "county": "Elgeyo Marakwet", "code": 28, "constituencies": [
+        { "name": "Marakwet East", "mp": "Kangogo Bowen", "party": "UDA", "aspirants_2027": ["Linah Kilimo (Independent)", "Lawyer Kiptoo (UDA Rebel)"] },
+        { "name": "Marakwet West", "mp": "Timothy Kipchumba", "party": "Independent", "aspirants_2027": ["William Kisang (UDA)", "Lawrence Mutwol (UDA Rebel)"] },
+        { "name": "Keiyo North", "mp": "Adams Kipsanai", "party": "UDA", "aspirants_2027": ["James Murgor (Independent)", "Justus Kemei (UDA Rebel)"] },
+        { "name": "Keiyo South", "mp": "Gideon Kimaiyo", "party": "UDA", "aspirants_2027": ["Daniel Rono (Independent)", "Kipchumba Murkomen Proxy (UDA Rebel)"] }
+      ]
+    },
+    {
+      "county": "Nandi", "code": 29, "constituencies": [
+        { "name": "Tinderet", "mp": "Julius Melly", "party": "UDA", "aspirants_2027": ["Mika Keter (Independent)", "Zipporah Kering (UDA Rebel)"] },
+        { "name": "Aldai", "mp": "Marianne Kitany", "party": "UDA", "aspirants_2027": ["Cornelly Serem (Independent)", "Sally Kosgei Proxy (UDA Rebel)"] },
+        { "name": "Nandi Hills", "mp": "Bernard Kitur", "party": "UDA", "aspirants_2027": ["Alfred Keter (Independent)", "Robert Kemei (UDA Rebel)"] },
+        { "name": "Chesumei", "mp": "Paul Biego", "party": "UDA", "aspirants_2027": ["Wilson Kogo (Independent)", "Elijah Lagat (UDA Rebel)"] },
+        { "name": "Emgwen", "mp": "Josses Lelmengit", "party": "UDA", "aspirants_2027": ["Alex Kosgey (Independent)", "Teresa Bitok (UDA Rebel)"] },
+        { "name": "Mosop", "mp": "Abraham Kirwa", "party": "UDA", "aspirants_2027": ["Vincent Tuwei (Independent)", "David Koech (UDA Rebel)"] }
+      ]
+    },
+    {
+      "county": "Baringo", "code": 30, "constituencies": [
+        { "name": "Tiaty", "mp": "William Kamket", "party": "KANU", "aspirants_2027": ["Asman Kamama (UDA)", "Peter Lokeris (Independent)"] },
+        { "name": "Baringo North", "mp": "Joseph Makilap", "party": "UDA", "aspirants_2027": ["William Cheptumo (Independent)", "Sammy Mwaita (UDA Rebel)"] },
+        { "name": "Baringo Central", "mp": "Joshua Kandie", "party": "UDA", "aspirants_2027": ["Sammy Mwaita (Independent)", "David Kerich (UDA Rebel)"] },
+        { "name": "Baringo South", "mp": "Charles Kamuren", "party": "UDA", "aspirants_2027": ["Grace Kipchoim Proxy (Independent)", "Amos Olempaka (UDA Rebel)"] },
+        { "name": "Mogotio", "mp": "Reuben Kiborek", "party": "UDA", "aspirants_2027": ["Daniel Tuitoek (Independent)", "Hellen Sambili (UDA Rebel)"] },
+        { "name": "Eldama Ravine", "mp": "Musa Sirma", "party": "UDA", "aspirants_2027": ["Moses Lessonet (Independent)", "Caleb Kositany Proxy (UDA Rebel)"] }
+      ]
+    },
+    {
+      "county": "Laikipia", "code": 31, "constituencies": [
+        { "name": "Laikipia West", "mp": "Stephen Karani", "party": "UDA", "aspirants_2027": ["Patrick Mariru (DCP)", "Kamau Ngunjiri (Jubilee)"] },
+        { "name": "Laikipia East", "mp": "Mwangi Kiunjuri", "party": "TSP", "aspirants_2027": ["Cate Waruguru (UDA)", "Amin Deddy (DCP)"] },
+        { "name": "Laikipia North", "mp": "Sarah Korere", "party": "Jubilee", "aspirants_2027": ["Mathew Lempurkel (ODM)", "Maina Munene (UDA)"] }
+      ]
+    },
+    {
+      "county": "Nakuru", "code": 32, "constituencies": [
+        { "name": "Molo", "mp": "Kuria Kimani", "party": "UDA", "aspirants_2027": ["Jacob Macharia (DCP)", "Florence Njoroge (Jubilee)"] },
+        { "name": "Njoro", "mp": "Charity Kathambi", "party": "UDA", "aspirants_2027": ["Joseph Kiuna (DCP)", "David Gikaria Proxy (Jubilee)"] },
+        { "name": "Naivasha", "mp": "Jayne Kihara", "party": "UDA", "aspirants_2027": ["John Kihagi (DCP)", "Ndegwa Nguthiru (Jubilee)"] },
+        { "name": "Gilgil", "mp": "Martha Wangari", "party": "UDA", "aspirants_2027": ["Mathenge Nderitu (DCP)", "Samuel Mathenge (Jubilee)"] },
+        { "name": "Kuresoi South", "mp": "Joseph Tonui", "party": "UDA", "aspirants_2027": ["Zakayo Cheruiyot (CCM)", "Peter Ketyenya (DCP)"] },
+        { "name": "Kuresoi North", "mp": "Alfred Mutai", "party": "UDA", "aspirants_2027": ["Moses Cheboi (DCP)", "James Koskei (CCM)"] },
+        { "name": "Subukia", "mp": "Samuel Gachobe", "party": "UDA", "aspirants_2027": ["Nelson Gaichuhie (DCP)", "Peter Mbae (Jubilee)"] },
+        { "name": "Rongai", "mp": "Paul Chebor", "party": "UDA", "aspirants_2027": ["Raymond Moi (KANU)", "Luka Kigen (DCP)"] },
+        { "name": "Bahati", "mp": "Irene Njoki", "party": "Jubilee", "aspirants_2027": ["Kimani Ngunjiri (UDA)", "Crispus Wathimba (DCP)"] },
+        { "name": "Nakuru Town West", "mp": "Samuel Arama", "party": "Jubilee", "aspirants_2027": ["Daniel Kamau (UDA)", "Isoe Ochoki (ODM)"] },
+        { "name": "Nakuru Town East", "mp": "David Gikaria", "party": "UDA", "aspirants_2027": ["Benson Mwangi (DCP)", "James Kiarie (Jubilee)"] }
+      ]
+    },
+    {
+      "county": "Narok", "code": 33, "constituencies": [
+        { "name": "Kilgoris", "mp": "Julius Sunkuli", "party": "KANU", "aspirants_2027": ["Gideon Konchellah (UDA)", "Joel Tasur (Independent)"] },
+        { "name": "Emurua Dikirr", "mp": "Johana Ngeno", "party": "UDA", "aspirants_2027": ["David Keter (CCM)", "Leonard Yegon (Independent)"] },
+        { "name": "Narok North", "mp": "Agnes Pareyio", "party": "Jubilee", "aspirants_2027": ["Kaitikei Rotiken (UDA)", "Moitalel Ole Kenta Proxy (ODM)"] },
+        { "name": "Narok East", "mp": "Ken Aramat", "party": "UDA", "aspirants_2027": ["Alfred Keriolale (ODM)", "Mathew Lempurkel Proxy (Independent)"] },
+        { "name": "Narok South", "mp": "Kitilai Ole Ntutu", "party": "Independent", "aspirants_2027": ["Korei Lemein (UDA)", "Samuel Tunai Proxy (Independent)"] },
+        { "name": "Narok West", "mp": "Gabriel Tongoyo", "party": "UDA", "aspirants_2027": ["Stanley Mpoe (ODM)", "Patrick Ntutu Proxy (Independent)"] }
+      ]
+    },
+    {
+      "county": "Kajiado", "code": 34, "constituencies": [
+        { "name": "Kajiado North", "mp": "Onesmus Ngogoyo", "party": "UDA", "aspirants_2027": ["Joseph Manje (DCP)", "Anita Soina (Independent)"] },
+        { "name": "Kajiado Central", "mp": "Elijah Memusi", "party": "ODM", "aspirants_2027": ["Moses Birisha (UDA)", "Katoo Ole Metito Proxy (UDA)"] },
+        { "name": "Kajiado East", "mp": "Kakuta Maimai", "party": "ODM", "aspirants_2027": ["Peris Tobiko (UDA)", "Mary Seneta (UDA)"] },
+        { "name": "Kajiado West", "mp": "George Sunkuyia", "party": "UDA", "aspirants_2027": ["Moses Ole Sakuda (Jubilee)", "Jacob Gitau (DCP)"] },
+        { "name": "Kajiado South", "mp": "Samuel Parashina", "party": "ODM", "aspirants_2027": ["Katoo Ole Metito (UDA)", "John KGD (Independent)"] }
+      ]
+    },
+    {
+      "county": "Kericho", "code": 35, "constituencies": [
+        { "name": "Kipkelion East", "mp": "Joseph Cherorot", "party": "UDA", "aspirants_2027": ["Joseph Limo (Independent)", "Hillary Kosgei (UDA Rebel)"] },
+        { "name": "Kipkelion West", "mp": "Hillary Kosgei", "party": "UDA", "aspirants_2027": ["Jackson Rop (Independent)", "Francis Too (UDA Rebel)"] },
+        { "name": "Ainamoi", "mp": "Benjamin Langat", "party": "UDA", "aspirants_2027": ["Sylvanus Maritim (Independent)", "Harry Langat (UDA Rebel)"] },
+        { "name": "Bureti", "mp": "Kibeter Mutai", "party": "UDA", "aspirants_2027": ["Japheth Mutai (Independent)", "Leonard Sang (UDA Rebel)"] },
+        { "name": "Belgut", "mp": "Nelson Koech", "party": "UDA", "aspirants_2027": ["Charles Keter Proxy (Independent)", "Erick Keter (UDA Rebel)"] },
+        { "name": "Sigowet/Soin", "mp": "Justice Kemei", "party": "UDA", "aspirants_2027": ["Kipsengeret Koros (Independent)", "Benard Koros (UDA Rebel)"] }
+      ]
+    },
+    {
+      "county": "Bomet", "code": 36, "constituencies": [
+        { "name": "Sotik", "mp": "Francis Sigei", "party": "UDA", "aspirants_2027": ["Dominic Koskei (CCM)", "William Kisang (Independent)"] },
+        { "name": "Chepalungu", "mp": "Victor Koech", "party": "CCM", "aspirants_2027": ["Paul Bii (UDA)", "Gideon Koskei (Independent)"] },
+        { "name": "Bomet East", "mp": "Richard Yegon", "party": "UDA", "aspirants_2027": ["Beatrice Kones (CCM)", "Bernard Bett (Independent)"] },
+        { "name": "Bomet Central", "mp": "Richard Kilel", "party": "UDA", "aspirants_2027": ["Ronald Tonui (CCM)", "Agnes Salala (Independent)"] },
+        { "name": "Konoin", "mp": "Brighton Yegon", "party": "UDA", "aspirants_2027": ["Sammy Koech (CCM)", "Julius Kones (Independent)"] }
+      ]
+    },
+    {
+      "county": "Kakamega", "code": 37, "constituencies": [
+        { "name": "Lugari", "mp": "Nabii Nabwera", "party": "ODM", "aspirants_2027": [] }
+      ]
+    }
+  ]
+}

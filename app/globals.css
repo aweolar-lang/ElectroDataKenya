@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Elegant, readable civic-tech colors */
+  --background: #f8fafc; /* Slate-50 */
+  --foreground: #0f172a; /* Slate-900 */
+  
+  /* Brand: A trustworthy deep green */
+  --brand: #059669;       /* Emerald-600 */
+  --brand-light: #d1fae5; /* Emerald-100 */
+  
+  /* Accent: A subtle red for highlights (Kenyan flag nod) */
+  --accent: #dc2626;      
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-brand: var(--brand);
+  --color-brand-light: var(--brand-light);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0f172a;
+    --foreground: #f1f5f9;
+    --brand: #10b981;
+    --brand-light: #064e3b;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  
+  /* Modern Dot Pattern Background */
+  background-image: radial-gradient(var(--brand) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+  background-color: var(--background);
+  /* Reduce pattern opacity slightly */
+  background-blend-mode: overlay;
+}
+
+/* Glass Card Utility */
+.card {
+  @apply bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm border border-slate-200 dark:border-slate-800 rounded-xl shadow-sm transition-all duration-200;
+}
+
+.card:hover {
+  @apply shadow-md border-brand/20;
 }
