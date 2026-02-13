@@ -260,6 +260,7 @@ export default function HomePage() {
             <ul className="space-y-2 text-sm">
               <li><a href="mailto:aweolar@gmail.com" className="hover:text-white">aweolar@gmail.com</a></li>
               <li><a href="https://x.com/Ethandewatcher" target="_blank" className="hover:text-white">@Ethandewatcher</a></li>
+              <li><a href="https://whatsapp.com/channel/0029Vb7JEWDCxoB2baSBvz27" target="_blank" className="hover:text-white">WhatsApp Channel</a></li>
             </ul>
           </div>
         </div>
