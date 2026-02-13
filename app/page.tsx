@@ -135,7 +135,16 @@ export default function HomePage() {
                 CDF
               </p>
                <p className="text-gray-400 text-xs mb-4">
-                Binary Options, Forex & More.
+                Binary Options, Digital Options & More.
+              </p>
+              <p className="text-gray-400 text-xs mb-4">
+                Commodities
+              </p>
+              <p className="text-gray-400 text-xs mb-4">
+                Stocks
+              </p>
+              <p className="text-gray-400 text-xs mb-4">
+                Indices
               </p>
 
               <button className="bg-[#00dd00] text-black font-bold py-2 px-4 rounded text-xs w-full uppercase mt-auto">Join Now</button>
@@ -207,6 +216,15 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-center gap-2 text-[10px] font-bold text-slate-700">
                   <span className="text-green-600">✓</span> Fast Withdrawals
+                </li>
+                 <li className="flex items-center gap-2 text-[10px] font-bold text-slate-700">
+                  <span className="text-green-600">✓</span> Min Deposit $10
+                </li>
+                 <li className="flex items-center gap-2 text-[10px] font-bold text-slate-700">
+                  <span className="text-green-600">✓</span> Mobile App & Desktop
+                </li>
+                 <li className="flex items-center gap-2 text-[10px] font-bold text-slate-700">
+                  <span className="text-green-600">✓</span> 24/7 Support
                 </li>
                 <li className="flex items-center gap-2 text-[10px] font-bold text-slate-700">
                   <span className="text-green-600">✓</span> Best UI for beginners
