@@ -50,12 +50,17 @@ export default async function VotePage({
   if (govStats.length > 0) {
     const gov = await prisma.candidate.findUnique({ where: { id: govStats[0].candidateId }});
     if (gov) {
-      leadingGov = { ...gov, votes: govStats[0]._count.candidateId };
+      // ✅ FIX: Explicitly map fields to match the 'LeaderStats' interface
+      // We use (gov.party || "Independent") to ensure it's never null
+      leadingGov = { 
+        name: gov.name, 
+        party: gov.party || "Independent", 
+        votes: govStats[0]._count.candidateId 
+      };
     }
   }
 
   // 5. STATS: Leading MP per Constituency
-  // We fetch all votes grouped by constituency + candidate to find the winner for each area
   const mpStats = await prisma.vote.groupBy({
     by: ['constituencyId', 'candidateId'],
     where: { countyId: county.id, candidate: { office: 'mp' } },
@@ -65,14 +70,13 @@ export default async function VotePage({
 
   const leadingMpMap: Record<string, {name: string, party: string, votes: number}> = {};
   
-  // Logic: The first entry for each constituencyId is the winner (because of 'desc' sort)
   for (const stat of mpStats) {
     if (stat.constituencyId && !leadingMpMap[stat.constituencyId]) {
       const cand = candidates.find(c => c.id === stat.candidateId);
       if (cand) {
         leadingMpMap[stat.constituencyId] = {
           name: cand.name,
-          party: cand.party || "Independent",
+          party: cand.party || "Independent", // ✅ Ensure string
           votes: stat._count.candidateId
         };
       }
@@ -97,7 +101,7 @@ export default async function VotePage({
         </div>
       </header>
 
-      {/* Main Content: We now pass the stats into the panel */}
+      {/* Main Content */}
       <div className="max-w-7xl mx-auto p-4 lg:p-8">
         <VotingPanel
           countyId={county.id}
@@ -106,7 +110,7 @@ export default async function VotePage({
           presCandidates={presCandidates}
           govCandidates={govCandidates}
           mpCandidates={mpCandidates}
-          // New Props
+          // Stats Props
           totalVotes={totalCountyVotes}
           leadingGov={leadingGov}
           leadingMpMap={leadingMpMap}
