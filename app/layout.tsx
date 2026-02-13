@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 
 // 1. IMPROVED METADATA FOR SEO
 export const metadata: Metadata = {
-  // Uses a template so pages can have "County Name | Civic Observer"
   title: {
     template: "%s | Civic Observer 2027",
     default: "Civic Observer 2027 - Real-Time Kenyan Election Data",
   },
+
   description: "Participate in the 2027 Civic Observer project. A neutral, real-time data collection platform for Kenyan civic engagement and transparency.",
   keywords: ["Kenya Elections", "2027", "Civic Observer", "Polling Data", "Nairobi", "Politics", "Voting"],
   authors: [{ name: "StudyLite Kenya" }],
@@ -33,6 +33,14 @@ export const metadata: Metadata = {
     siteName: "Civic Observer 2027",
     locale: "en_KE",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Civic Observer Dashboard Preview",
+      },
+    ],
   },
 
   // 3. TWITTER CARDS
@@ -41,6 +49,7 @@ export const metadata: Metadata = {
     title: "Civic Observer 2027",
     description: "Real-time civic data collection for Kenya.",
     creator: "@Ethandewatcher",
+    images: ["/opengraph-image.png"],
   },
 
   // 4. INDEXING CONTROL
